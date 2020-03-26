@@ -2,7 +2,7 @@
   
 An implmentation of the Bin Packing (Offline) Algorithm as applied to optimizing Floppy Disk memory distribution.
 
-Problem statement (summary):
+Problem statement (summary):  
 You have an aribitrary amount of files, each less than 1.44MB. The files total 128MB and you have 120 floppy disks.  Each floppy disk has a capacity of 1.44MB. Find the optimal distribution of files to floppy disks.
 
 ## Methodology and Summary
@@ -10,7 +10,7 @@ A First Fit Decreasing Algorithm was implemented to solve this problem.  It runs
 
 ## Data
   
-Data is generated via the FloppyData.py file 
+Data is self-generated via the FloppyData.py file 
 
 ## Commentary
 Further optimzations may include using a Modified First Fit Decreasing Algorithm (see Wikipedia page) to decrease, on average, the number of Floppy Disks required.
