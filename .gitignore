@@ -1,0 +1,10 @@
+# ignore Jupyter Notebook
+notebook_bp_test.ipynb
+
+# ignore ipynb_checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+
+**/__pycache__/ 
+
