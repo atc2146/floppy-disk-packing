@@ -3,7 +3,7 @@
 An implmentation of the Bin Packing (Offline) Algorithm as applied to optimizing Floppy Disk memory distribution.
 
 Problem statement (summary):  
-You have an aribitrary amount of files, each less than 1.44MB. The files total 128MB and you have 120 floppy disks.  Each floppy disk has a capacity of 1.44MB. Find the optimal distribution of files to floppy disks.
+ * You have an aribitrary amount of files, each less than 1.44MB. The files total 128MB and you have 120 floppy disks.  Each floppy disk has a capacity of 1.44MB. Find the optimal distribution of files to floppy disks.
 
 ## Methodology and Summary
 A First Fit Decreasing Algorithm was implemented to solve this problem.  It runs in O(n^2) time.  Given the small data set, this is sufficient.  A more complex (and faster) way of implmenting the First Fit Decreasing Algorithm can be done using self balancing tress with a runtime of O(nlogn).
