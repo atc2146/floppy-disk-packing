@@ -4,21 +4,19 @@ An implementation of the Bin Packing (Offline) Algorithm as applied to optimizin
 
 ## Problem Statement
 
-```sh
-You have an arbitrary number of files, each less than 1.44MB. The files total 128MB and you have 120 floppy disks available.  Each floppy disk has a capacity of 1.44MB. Find the optimal distribution of files to floppy disks.
-```
+`You have an arbitrary number of files, each less than 1.44MB. The files total 128MB and you have 120 floppy disks available.  Each floppy disk has a capacity of 1.44MB. Find the optimal distribution of files to floppy disks.`
 
 ## Methodology
-A [First Fit Decreasing Algorithm](Algos.py) was implemented to solve this problem.  It runs in O(n<sup>2</sup>) time.  Given the small data set, this is sufficient.  A more complex (and faster) way of implementing the First Fit Decreasing Algorithm can be done using self balancing trees with a runtime of O(nlogn).
+A [First Fit Decreasing Algorithm](Algos.py) was implemented to solve this problem.  It runs in O(n<sup>2</sup>) time.  Given the small data set, this is sufficient.  A more complex way of implementing the First Fit Decreasing Algorithm can be done using self balancing trees with a runtime of O(n log n).
 
 ## Data
   
-Data is self-generated via the [FloppyData.py](FloppyData.py) file 
+Data is self-generated via the [FloppyData.py](FloppyData.py) file. 
 
 ## How to run
 
 Requires no third party libraries.
-Simply [clone](https://github.com/atc2146/floppy-disk-packing.git) this repo, shell into the folder, and run [Main.py](Main.py)
+Simply [clone](https://github.com/atc2146/floppy-disk-packing.git) this repo, shell into the folder, and run [Main.py](Main.py).
 
 ```sh
 $ python Main.py
