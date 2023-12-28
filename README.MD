@@ -32,6 +32,3 @@ Further optimizations may include using a Modified First Fit Decreasing Algorith
  * UCSB: https://sites.cs.ucsb.edu/~suri/cs130b/BinPacking
  * Geeksforgeeks: https://www.geeksforgeeks.org/bin-packing-problem-minimize-number-of-used-bins/
  * Wikipedia: https://en.wikipedia.org/wiki/Megabyte
-
-## Author
-Alex Chung
